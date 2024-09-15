@@ -1,17 +1,14 @@
 <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
 <script src="https://cdn.tailwindcss.com"></script>
 <meta charset="UTF-8">
+<title>Mateo Šimičić</title>
+<link rel="icon" type="image/png" href="slike/favicon.png" sizes="32x32">
 <style type="text/tailwindcss">
   @layer utilities {
     .darken-50 {
       filter: brightness(0.5);
     }
 
-    .h-80ppp {
-      height: 80%;
-    }
-
-    /* Terminal typing effect styling */
     .terminal-text {
       font-family: monospace;
       white-space: pre;
@@ -77,9 +74,13 @@
         </div>
       </div>
     </div>
-    <div class="bg-gray-50 lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
-      <img class="aspect-[3/2] object-cover lg:aspect-auto lg:h-full lg:w-full" src="slike/hero-slika.jpg" alt="">
-    </div>
+    <div class="relative bg-gray-50 lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
+  <img class="aspect-[3/2] object-cover lg:aspect-auto lg:h-full lg:w-full" src="slike/hero-slika.jpg" alt="">
+  <div class="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-white bg-opacity-90"></div>
+</div>
+
+</div>
+
   </div>
 </div>
 
@@ -179,7 +180,7 @@
               <p class="text-sm text-gray-500">Student work at <a href="https://isv.hr/hr" class="font-medium text-gray-900">Informatički servis Vuković </a></p>
             </div>
             <div class="whitespace-nowrap text-right text-sm text-gray-500">
-              <time datetime="2020-09-28">Sep 2024</time>
+              <time datetime="2020-09-28">May to Aug 2024</time>
             </div>
           </div>
         </div>
@@ -200,7 +201,7 @@
               <p class="text-sm text-gray-500">To be filled from <a href="#" class="font-medium text-gray-900">Faculty of Organization and Informatics</a> as <a href="#" class="font-medium text-gray-900">bacc.inf.</a></p>
             </div>
             <div class="whitespace-nowrap text-right text-sm text-gray-500">
-              <time datetime="2020-09-30">Sep 30</time>
+              <time datetime="2020-09-30">Sep 2024</time>
             </div>
           </div>
         </div>
@@ -233,7 +234,8 @@
             </svg>
             ITIL & ITSM
           </dt>
-          <dd class="mt-2">Rerum repellat labore necessitatibus reprehenderit molestiae praesentium.</dd>
+          
+          <dd class="mt-2">Understanding of modern organizational operations and the role of IT services, applying ITIL standards effectively. I can comprehend and implement ITIL processes throughout the service lifecycle and am prepared for industry certification in IT service management.</dd>
         </div>
         <div class="relative pl-9">
           <dt class="font-semibold text-gray-900">
@@ -242,7 +244,7 @@
             </svg>
             Cloud Technologies
           </dt>
-          <dd class="mt-2">Corporis asperiores ea nulla temporibus asperiores non tempore assumenda aut.</dd>
+          <dd class="mt-2">Foundational understanding of cloud technologies, including key concepts, services, and deployment models. I am familiar with the basics of cloud architecture, providers, and how to leverage cloud solutions for various business needs.</dd>
         </div>
         <div class="relative pl-9">
           <dt class="font-semibold text-gray-900">
@@ -252,7 +254,7 @@
             </svg>
             Hardware
           </dt>
-          <dd class="mt-2">In sit qui aliquid deleniti et. Ad nobis sunt omnis. Quo sapiente dicta laboriosam.</dd>
+          <dd class="mt-2">Solid understanding of both personal computers and servers, including their hardware, operating systems, and configuration. My expertise encompasses troubleshooting, maintenance, and optimizing performance for both types of systems.</dd>
         </div>
         <div class="relative pl-9">
           <dt class="font-semibold text-gray-900">
@@ -261,7 +263,7 @@
             </svg>
             HTML & CSS
           </dt>
-          <dd class="mt-2">Sed rerum sunt dignissimos ullam. Iusto iure occaecati voluptate eligendi fugiat sequi.</dd>
+          <dd class="mt-2">Understanding of HTML and CSS, including the ability to create and style web pages. This includes knowledge of fundamental HTML elements, CSS properties, and how to use them to structure and design websites.</dd>
         </div>
         <div class="relative pl-9">
           <dt class="font-semibold text-gray-900">
@@ -270,7 +272,7 @@
             </svg>
             PHP
           </dt>
-          <dd class="mt-2">Quos inventore harum enim nesciunt. Aut repellat rerum omnis adipisci.</dd>
+          <dd class="mt-2">Basic understanding of PHP, including the ability to write simple scripts and integrate PHP with HTML to create dynamic web pages. This includes knowledge of fundamental PHP syntax, variables, and basic control structures.</dd>
         </div>
         <div class="relative pl-9">
           <dt class="font-semibold text-gray-900">
@@ -279,27 +281,9 @@
             </svg>
             Windows & Linux
           </dt>
-          <dd class="mt-2">Quae sit sunt excepturi fugit veniam voluptatem ipsum commodi.</dd>
+          <dd class="mt-2">Understanding of managing both Windows and Linux systems, including tasks such as installation, configuration, and troubleshooting. This knowledge covers essential commands, system administration practices, and basic scripting for both operating systems.</dd>
         </div>
-        <div class="relative pl-9">
-          <dt class="font-semibold text-gray-900">
-            <svg class="absolute left-0 top-1 h-5 w-5 text-indigo-500" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-              <path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" clip-rule="evenodd" />
-            </svg>
-            Reporting
-          </dt>
-          <dd class="mt-2">Eos laudantium repellat sed architecto earum unde incidunt. Illum sit dolores voluptatem.</dd>
-        </div>
-        <div class="relative pl-9">
-          <dt class="font-semibold text-gray-900">
-            <svg class="absolute left-0 top-1 h-5 w-5 text-indigo-500" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-              <path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" clip-rule="evenodd" />
-            </svg>
-            Mobile app
-          </dt>
-          <dd class="mt-2">Nulla est saepe accusamus nostrum est est. Fugit voluptatum omnis quidem voluptatem.</dd>
-        </div>
-      </dl>
+        
     </div>
   </div>
 </div>
@@ -391,5 +375,3 @@
     typeEffect();
   });
 </script>
-
-
